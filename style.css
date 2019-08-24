@@ -1,0 +1,19 @@
+* {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 1.6em;
+}
+nav {
+    text-transform: uppercase;
+}
+p {
+    font-size: .8em;
+}
+.jumbotron{
+    background: url('img/jumbo.jpg') no-repeat; 
+    background-size: cover;
+}
