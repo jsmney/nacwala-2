@@ -14,6 +14,20 @@ p {
     font-size: .8em;
 }
 .jumbotron{
-    background: url('img/jumbo.jpg') no-repeat; 
+    background: url('img/jumbo.jpg') no-repeat;
     background-size: cover;
 }
+
+.article-gallery {
+    display: flex;
+}
+
+.article-img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.article-gallery > div:not(:last-child) {
+    margin-right: 1%;
+  }
