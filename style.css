@@ -26,6 +26,7 @@ p {
   width: 100%;
   height: auto;
   vertical-align: middle;
+  padding-top: 10px;
 }
 
 .article-gallery > div:not(:last-child) {
