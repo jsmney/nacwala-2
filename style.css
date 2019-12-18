@@ -37,3 +37,34 @@ p {
 .in-memoriam {
   outline: 1px solid black;
 }
+
+.lifetime-top {
+  background-image: url('top.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 518px;
+  width: 975px;
+  background-size: contain;
+  margin-bottom: 0px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.lifetime-mid {
+  background-image: url('mid.png');
+  background-repeat: repeat-y;
+  background-size: contain;
+  width: 975px;
+  margin-top: 0px !important;
+}
+
+.lifetime-bottom {
+  background-image: url('bottom.png');
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 975px;
+  height: 548px;
+}
