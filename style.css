@@ -40,8 +40,6 @@ p {
 
 .lifetime-top {
   background-image: url('top.png');
-  background-position: top;
-  background-repeat: no-repeat;
   height: 518px;
   width: 975px;
   background-size: contain;
@@ -57,14 +55,15 @@ p {
   background-repeat: repeat-y;
   background-size: contain;
   width: 975px;
-  margin-top: 0px !important;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .lifetime-bottom {
   background-image: url('bottom.png');
   background-position: top;
   background-size: contain;
-  background-repeat: no-repeat;
   width: 975px;
   height: 548px;
 }
