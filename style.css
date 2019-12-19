@@ -67,3 +67,9 @@ p {
   width: 975px;
   height: 548px;
 }
+
+.author {
+  height: 300px;
+  float: left;
+  padding: 20px;
+}
