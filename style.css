@@ -73,3 +73,7 @@ p {
   float: left;
   padding: 20px;
 }
+
+.thumb {
+  height: 150px;
+}
