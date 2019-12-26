@@ -10,9 +10,9 @@ h1 {
 nav {
   text-transform: uppercase;
 }
-p {
+/* p {
   font-size: 0.8em;
-}
+} */
 .jumbotron {
   background: url('img/jumbo.jpg') no-repeat;
   background-size: cover;
@@ -75,5 +75,11 @@ p {
 }
 
 .thumb {
-  height: 150px;
+  height: 88px;
+  /* float: left; */
+  /* padding: 10px; */
+}
+
+td {
+  vertical-align: bottom !important;
 }
