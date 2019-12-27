@@ -1,5 +1,5 @@
 * {
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   font-family: 'Dosis', sans-serif;
 }
 
@@ -69,9 +69,11 @@ nav {
 }
 
 .author {
-  height: 300px;
+  height: 220px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   float: left;
-  padding: 20px;
 }
 
 .thumb {
@@ -82,4 +84,12 @@ nav {
 
 td {
   vertical-align: bottom !important;
+}
+
+ul.accolades {
+  font-size: 0.8em;
+}
+
+ul.articles {
+  list-style-type: none;
 }
