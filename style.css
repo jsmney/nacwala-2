@@ -38,36 +38,6 @@ nav {
   outline: 1px solid black;
 }
 
-.lifetime-top {
-  background-image: url('top.png');
-  height: 518px;
-  width: 975px;
-  background-size: contain;
-  margin-bottom: 0px;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.lifetime-mid {
-  background-image: url('mid.png');
-  background-repeat: repeat-y;
-  background-size: contain;
-  width: 975px;
-  padding: 0px 50px;
-  display: flex;
-  justify-content: center;
-}
-
-.lifetime-bottom {
-  background-image: url('bottom.png');
-  background-position: top;
-  background-size: contain;
-  width: 975px;
-  height: 548px;
-}
-
 .author {
   height: 220px;
   padding-right: 20px;
