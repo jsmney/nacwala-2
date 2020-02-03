@@ -66,5 +66,8 @@ ul.articles {
 
 .caption {
   font-size: 0.7em;
-  text-align: right;
+  text-align: left;
+  display: list-item;
+  list-style-type: '\25FC';
+  list-style-position: inside;
 }
