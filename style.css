@@ -1,10 +1,10 @@
 * {
-  font-family: "Noto Sans TC", sans-serif;
-  font-family: "Dosis", sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 h1 {
-  font-family: "Zhi Mang Xing", cursive;
+  font-family: 'Zhi Mang Xing', cursive;
   font-size: 1.6em;
 }
 nav {
@@ -14,7 +14,7 @@ nav {
   font-size: 0.8em;
 } */
 .jumbotron {
-  background: url("img/jumbo.jpg") no-repeat;
+  background: url('img/jumbo.jpg') no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -72,6 +72,10 @@ ul.articles em {
   font-size: 0.7em;
   text-align: left;
   display: list-item;
-  list-style-type: "\25FC";
+  list-style-type: '\25FC';
   list-style-position: inside;
+}
+
+strong.green {
+  color: yellowgreen;
 }
